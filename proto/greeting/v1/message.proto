@@ -1,8 +1,8 @@
-syntax="proto3"
+syntax="proto3";
 
 package greeting.v1;
 
-option go_package = "github.com/lyracampos/go-grpc/pkg/pb/greeting/v1;v1;";
+option go_package = "github.com/lyracampos/go-grpc/pkg/greeting/v1;v1;";
 
 message Message {
     enum Greeter {
